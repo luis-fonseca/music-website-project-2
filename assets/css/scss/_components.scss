@@ -37,3 +37,45 @@
     text-decoration: none;
   }
 }
+
+.content-container {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+
+  &__content {
+    margin-left: $margin-content;
+
+    h1 {
+      color: $color-white;
+      font-size: 5.625rem;
+      float: left;
+      line-height: 6.875rem;
+
+      span {
+        display: block;
+      }
+    }
+  }
+
+  &__player {
+    float: right;
+    margin-right: $margin-content;
+    margin-top: 7.5rem;
+
+    display: flex;
+    align-items: center;
+
+    p {
+      color: $color-zambezi;
+      font-size: 1.125rem;
+      font-weight: 400;
+      margin-right: 0.9375rem;
+    }
+  }
+
+  &__play-button {
+    width: 80px;
+    cursor: pointer;
+  }
+}
