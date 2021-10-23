@@ -1,0 +1,10 @@
+.container {
+  // a localização do arquivo de imagem tem como base o output do arquivo style.css
+  background-image: url('../images/image-min.png');
+  background-size: cover;
+  background-position: center;
+
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}
