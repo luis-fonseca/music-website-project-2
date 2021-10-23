@@ -1,5 +1,7 @@
 // o arquivo contém variáveis, resets, mixins e classes utilitárias
 
+$font-family: sans-serif;
+
 * {
   margin: 0;
   padding: 0;
@@ -7,5 +9,5 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: $font-family;
 }
