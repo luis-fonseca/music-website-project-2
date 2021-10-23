@@ -8,3 +8,32 @@
   position: relative;
   width: 100%;
 }
+
+.navbar-container {
+  &__navbar {
+    margin: auto;
+    padding: 0.9375rem 0;
+    width: 88%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 140px;
+    cursor: pointer;
+  }
+
+  &__item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0.9375rem;
+  }
+
+  &__links {
+    font-size: 0.9375rem;
+    color: $color-zambezi;
+    text-decoration: none;
+  }
+}
