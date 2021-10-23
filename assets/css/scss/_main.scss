@@ -1,0 +1,11 @@
+// contem somente os imports dos arquivos _base, _components, _layout
+// para compilar o arquivo sass e gerar o arquivo css minificado
+// basta, dentro do diretório css executar
+// sass --watch scss\_main.scss:styles.css --style compressed
+
+// essa estrutura foi baseada neste artigo,
+// https://www.webdesignerdepot.com/2020/12/2-smartest-ways-to-structure-sass/
+
+@import '_base';
+@import '_layout';
+@import '_components';
